@@ -6,12 +6,12 @@ require "omniauth/zalo/version"
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-zalo"
   spec.version       = Omniauth::Zalo::VERSION
-  spec.authors       = ["nguyenthanhcong101096"]
-  spec.email         = ["nguyenthanhcong101096@gmail.com"]
+  spec.authors       = ["dylandamsma"]
+  spec.email         = ["dylandamsma@gmail.com"]
 
-  spec.summary       = "this is the all module for wakuwaku appkication"
-  spec.description   = "Write a longer description or delete this line."
-  spec.homepage      = "https://github.com/nguyenthanhcong101096/omniauth-zalo"
+  spec.summary       = "Omniauth strategy for Login w/ Zalo"
+  spec.description   = "Use this gem in combination with the omniauth gem for Ruby."
+  spec.homepage      = "https://github.com/dylandamsma/omniauth-zalo"
   spec.license       = "Apache-2.0"
   
   # Specify which files should be added to the gem when it is released.
