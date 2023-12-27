@@ -23,7 +23,7 @@ omniauth.rb
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :zalo, ENV['APP_ID'], env['SERECT_ID']
+  provider :zalo, ENV['APP_ID'], env['SECRET_ID']
 end
 ```
 
